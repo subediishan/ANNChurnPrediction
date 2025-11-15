@@ -18,7 +18,7 @@ with open('scalar.pkl','rb') as file :
   scalar = pickle.load(file)
 
 
-st.title("Customer Churn Prediction")
+st.title(" Churn Prediction")
 geography = st.selectbox("Geography",onehot_encoder_geo.categories_[0]) ##categories return list of categories
 age = st.slider("Age",18,92,20)
 gender = st.selectbox("Gender",["Male","Female"])
