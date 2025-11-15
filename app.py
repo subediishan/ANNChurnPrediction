@@ -56,7 +56,7 @@ prediction = model.predict(input_data_scaled)
 prediction_probability = prediction[0][0]
 st.write(f"churn probability : {prediction_probability}")
 if prediction_probability > 0.5:
-  st.write("The person is likely to churn probablity to churn ") 
+  st.write("The person is likely to churn ") 
 
 else: 
   st.write("The person is not likely to churn ") 
